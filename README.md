@@ -54,7 +54,35 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent total revenue.
 
-![Total Revenue](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/8d4842a8-663d-4dac-8290-e7290942bc6c)
+![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+
+Step 2 : New measure was created to find total number of orders.
+
+Following DAX expression was written for the same,
+        
+        Total Orders = DISTINCT COUNT(pizza_sold[order_id])
+        
+A card visual was used to represent total revenue.
+
+![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+
+Step 3 : New measure was created to find average order value.
+
+Following DAX expression was written for the same,
+        
+        Avg Order Value = [Total Revenue]/[Total Orders]
+        
+A card visual was used to represent total revenue.
+
+![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+
+Step 4 : New measure was created to find average pizzas per order.
+
+Following DAX expression was written for the same,
+        
+        Avg Pizzas Per Order = [Total Pizza Sold]/[Total Orders]
+        
+A card visual was used to represent total revenue.
 
 ![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
 
