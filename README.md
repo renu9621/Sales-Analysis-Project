@@ -28,11 +28,14 @@ Data cleaning and formatting.
 
 ### Exploratory Data Analysis
 
-EDA involved exploring the sales data to answer key questions, such as:
+Exploring the sales data to answer key questions, such as:
 
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+- Daily trend for total orders
+- Monthly trend for total orders
+- Percentage of sales by pizza category
+- Percentage of sales by pizza size
+- Total pizza sold by pizza category
+- Top five best and worst seller by revenue, total quantity and total order
 
 ### Data Analysis
 
@@ -42,6 +45,14 @@ Include some interesting code/features worked with
 SELECT * FROM table1
 WHERE cond = 2;
 ```
+### Steps followed
+Step 1 : New measure was created to find total revenue.
+
+Following DAX expression was written for the same,
+        
+        Total Revenue = SUM(pizza_sold[total_price])
+        
+A card visual was used to represent total revenue.
 
 ### Results/Findings
 
