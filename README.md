@@ -54,7 +54,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent total revenue.
 
-![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+![Total revenue](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/764efa3a-da44-4f0a-8da3-fcc0067f3cf6)
 
 Step 2 : New measure was created to find total number of orders.
 
@@ -64,7 +64,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent total revenue.
 
-![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+![Total orders](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/119f0ace-f42e-4485-bd18-d2cb0673130c)
 
 Step 3 : New measure was created to find average order value.
 
@@ -74,9 +74,19 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent total revenue.
 
-![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/4affda2b-9d7f-4d8b-b706-1a409b941e15)
 
-Step 4 : New measure was created to find average pizzas per order.
+Step 5 : New measure was created to find total pizzas sold.
+
+Following DAX expression was written for the same,
+        
+        Total Pizzas sold = [Total Revenue]/[Total Orders]
+        
+A card visual was used to represent total revenue.
+
+![total pizza sold](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/deb515f1-55ac-47ba-bfed-26b263e265c9)
+
+Step 5 : New measure was created to find average pizzas per order.
 
 Following DAX expression was written for the same,
         
@@ -84,7 +94,7 @@ Following DAX expression was written for the same,
         
 A card visual was used to represent total revenue.
 
-![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
+![Avg pizza per order](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/63c4083f-4067-4210-a9cb-789cd89faf7b)
 
 ### Results/Findings
 
