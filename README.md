@@ -56,7 +56,7 @@ A card visual was used to represent total revenue.
 
 ![Total Revenue](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/8d4842a8-663d-4dac-8290-e7290942bc6c)
 
-![Total Revenue](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/8d4842a8-663d-4dac-8290-e7290942bc6c)
+![Avg order value](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c271cd68-611e-4a1c-b055-2a2e7c152e24)
 
 ### Results/Findings
 
