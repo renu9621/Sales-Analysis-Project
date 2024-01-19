@@ -96,6 +96,20 @@ A card visual was used to represent total revenue.
 
 ![Avg pizza per order](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/63c4083f-4067-4210-a9cb-789cd89faf7b)
 
+Step 6 : A bar chart was created to display daily trend for total orders over a secific time period to identify any patterns or fluctuations in order.
+
+Step 7 : A line chart was created to illustrate 
+
+Step 8 : A pie chart was created to show the distribution of sales across different pizza category, which provides insight into the popularity of various pizza categories and their contributions to overall sales.
+
+Step 9 : A pie chart was generated to represent the percentage of sales attributed to different pizza sizes. This helps us understand customer preferences for pizza sizes and their impact on sales.
+
+Step 10 : A funnel chart was created to demonstrate the number of pizzas sold for each pizza category to compare the sales performance of different pizza categories.
+
+Step 11 : A bar chart highlighting the top five best selling pizza based on the revenue, total quantity and total order was created to identify most popular pizza options.
+
+Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on the revenue, total quantity and total orders was created to identify underperforming or less popular pizza options.
+
 ### Results/Findings
 
 The analysis results are summarized as follows:
