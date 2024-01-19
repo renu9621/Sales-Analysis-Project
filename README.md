@@ -98,17 +98,31 @@ A card visual was used to represent total revenue.
 
 Step 6 : A bar chart was created to display daily trend for total orders over a secific time period to identify any patterns or fluctuations in order.
 
+![bar_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/578a54ae-45f2-45a1-92a3-de66a4877ef3)
+
 Step 7 : A line chart was created to illustrate 
+
+![line_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/1ba2fdba-1f0c-4744-be6e-6543df8cc927)
 
 Step 8 : A pie chart was created to show the distribution of sales across different pizza category, which provides insight into the popularity of various pizza categories and their contributions to overall sales.
 
+![pie_chart1](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/3fdcdbc4-4099-407a-9e4a-2ea12d55eb60)
+
 Step 9 : A pie chart was generated to represent the percentage of sales attributed to different pizza sizes. This helps us understand customer preferences for pizza sizes and their impact on sales.
+
+![pie_chart2](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/e4054a90-8889-4162-a719-9ed33151944c)
 
 Step 10 : A funnel chart was created to demonstrate the number of pizzas sold for each pizza category to compare the sales performance of different pizza categories.
 
+![funnel_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/ccc9d337-e60a-49c5-883d-6e664373562e)
+
 Step 11 : A bar chart highlighting the top five best selling pizza based on the revenue, total quantity and total order was created to identify most popular pizza options.
 
+![best_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/a8e46946-b802-48d3-9db0-7b15ea0700e0)
+
 Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on the revenue, total quantity and total orders was created to identify underperforming or less popular pizza options.
+
+![worst_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/5db153f1-a20d-493d-916f-e2fb3ceedec6)
 
 ### Results/Findings
 
