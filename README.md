@@ -128,9 +128,13 @@ Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on t
 
 The analysis results are summarized as follows:
 1. Orders were highest on weekends, Fridays/Saturdays and maximum orders were from the month of January and July.
+![insight1](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/a42204dd-57a8-4cc1-899a-23388fd5b110)
 2. Classic category contributes to maximum sales and total orders whereas large size pizza contributes to maximum sales.
+![insight2](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/78b4fbc2-d947-4ea4-9bd3-b5fea38d5255)
 3. The Thai chicken pizza contibutes to maximum revenue whereas classic deluxe pizza contributes to maximum total quantity and total orders.
+![top](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/df3e6288-1b11-4add-b328-65024cfe1e78)
 4. The Brie Carre Pizza contributes to minimum revenue, toal quantity and total orders.
+![bottom](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/bb78be79-1eae-4993-bf45-67dcaaadfb64)
 
 ### Recommendations
 
@@ -147,3 +151,6 @@ I had to remove all zero values from budget and revenue columns because they wou
 
 1.SQL for Business by werty
 2. [Stack Overflow](https://stack.com)
+
+![best_worst_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b267a345-22e6-4482-9a28-6499feb5e3c3)
+![home_tab](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b38936dd-8d72-494f-bb1d-ece9e8c74306)
