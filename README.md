@@ -98,7 +98,7 @@ A card visual was used to represent total revenue.
 
 Step 6 : A bar chart was created to display daily trend for total orders over a secific time period to identify any patterns or fluctuations in order.
 
-![bar_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/578a54ae-45f2-45a1-92a3-de66a4877ef3)
+![Daily_trend](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/ad1aa269-2d82-408b-ae8f-e9b1d3b3c7a2)
 
 Step 7 : A line chart was created to illustrate 
 
