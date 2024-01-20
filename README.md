@@ -100,7 +100,7 @@ Step 6 : A bar chart was created to display daily trend for total orders over a 
 
 ![bar_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/cefaa599-7a78-4824-8d90-dddcb99aedf3)
 
-Step 7 : A line chart was created to illustrate 
+Step 7 : A line chart was created to illustrate the peak months when the orders were maximum to identify the peak time of the year.
 
 ![line_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/1ba2fdba-1f0c-4744-be6e-6543df8cc927)
 
@@ -127,9 +127,10 @@ Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on t
 ### Results/Findings
 
 The analysis results are summarized as follows:
-1. The company's sales hve been teadily increasing over the past year, with a noticeable peak duing the holiday season.
-2. Product category A is the best performing ctegory in terms of sal and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+1. Orders were highest on weekends, Fridays/Saturdays and maximum orders were from the month of January and July.
+2. Classic category contributes to maximum sales and total orders whereas large size pizza contributes to maximum sales.
+3. The Thai chicken pizza contibutes to maximum revenue whereas classic deluxe pizza contributes to maximum total quantity and total orders.
+4. The Brie Carre Pizza contributes to minimum revenue, toal quantity and total orders.
 
 ### Recommendations
 
