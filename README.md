@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Cleaning/Preparation](#data-cleaning/preparation)
+- [Data Cleaning](#data-cleaning)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Data Visualization](#data-visualization)
@@ -13,11 +13,11 @@
 
 This data analysis project aims to provide insights into the sales performance of a pizza selling company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, present data-driven insights to gain a deeper understanding of the company's performance.
 
-### Data Cleaning/Preparation
+### Data Cleaning
 
 In the initial data preparation phase, we performed the following tasks:
--Data loading: dataset is a csv file.
--Data inspection
+- Data loading: dataset is a csv file.
+- Data inspection
 
 ### Exploratory Data Analysis
 
@@ -32,7 +32,7 @@ Exploring the sales data to answer key questions, such as:
 
 ### Data Analysis
 
-SQL queries were fired into MS SQL Server to analyse data and get resulst for problem qustions. The same result was captured and documented to cross check later.
+SQL queries were fired into MS SQL Server to analyse data and get results for problem questions. The same result was captured and documented to cross check later.
 
 ```sql
 SELECT SUM(total_price) AS Total_Revenue
@@ -90,7 +90,7 @@ A card visual was used to represent total revenue.
 
 ![Avg pizza per order](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/63c4083f-4067-4210-a9cb-789cd89faf7b)
 
-Step 6 : A bar chart was created to display daily trend for total orders over a secific time period to identify any patterns or fluctuations in order.
+Step 6 : A bar chart was created to display daily trend for total orders over a specific time period to identify any patterns or fluctuations in order.
 
 Step 7 : A line chart was created to illustrate the peak months when the orders were maximum to identify the peak time of the year.
 
@@ -104,6 +104,8 @@ Step 11 : A bar chart highlighting the top five best selling pizza based on the 
 
 Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on the revenue, total quantity and total orders was created to identify underperforming or less popular pizza options.
 
+Step 13: An interactive and dynamic dashboard was created to visualize all the findings. The dashboard contains two slicers, 'pizza category' slicer through which data insights for different pizza category can be viewed and 'date' slicer to get data insights for any particular period in the year. Two buttons are used to navigate from one dashboard to another.
+
 ![dashboard_home](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c103b47b-a6d0-482c-83a5-de82fc4e5ac3)
 ![dashboard_best_worst](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/e9b31b4a-6994-4732-ab8c-7ff3f5a1b993)
 
@@ -114,7 +116,4 @@ The analysis results are summarized as follows:
 1. Orders were highest on weekends, Fridays/Saturdays and maximum orders were from the month of January and July.
 2. Classic category contributes to maximum sales and total orders whereas large size pizza contributes to maximum sales.
 3. The Thai chicken pizza contibutes to maximum revenue whereas classic deluxe pizza contributes to maximum total quantity and total orders.
-4. The Brie Carre Pizza contributes to minimum revenue, toal quantity and total orders.
-
-
-
+4. The Brie Carre Pizza minimum contribution to revenue, toal quantity and total orders.
