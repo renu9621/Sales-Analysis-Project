@@ -3,28 +3,21 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Data Sources](#data-sources)
+- [Data Cleaning/Preparation](#data-cleaning/preparation)
 - [Recommendations](#recommendations)
-
+- [Data Analysis](#data-analysis)
+- [Data Visualization](#data-visualization)
+- [Insights](insigts)
+  
 ### Project Overview
 
 This data analysis project aims to provide insights into the sales performance of a pizza selling company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
-### Data Sources
-
-Sales Data: The primary dataset used for this analysis is the "pizza_sales.csv" file, containing detailed information about each sale made by the company.
-
-### Tools
-
-- My SQL - Data Analysis
-- PowerBI - Data Cleaning and Creating reports
-
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
-Data loading and inspection.
-Handling missing values.
-Data cleaning and formatting.
+Data loading: dataset is a csv file.
+Data inspection
 
 ### Exploratory Data Analysis
 
@@ -39,13 +32,14 @@ Exploring the sales data to answer key questions, such as:
 
 ### Data Analysis
 
-Include some interesting code/features worked with
+SQL queries were fired into MS SQL Server to analyse data and get resulst for problem qustions. The same result was captured and documented to cross check later.
 
 ```sql
-SELECT * FROM table1
-WHERE cond = 2;
+SELECT SUM(total_price) AS Total_Revenue
+FROM pizza_sales;
 ```
-### Steps followed
+### Data Visualization
+
 Step 1 : New measure was created to find total revenue.
 
 Following DAX expression was written for the same,
@@ -98,66 +92,29 @@ A card visual was used to represent total revenue.
 
 Step 6 : A bar chart was created to display daily trend for total orders over a secific time period to identify any patterns or fluctuations in order.
 
-![bar_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/cefaa599-7a78-4824-8d90-dddcb99aedf3)
-
 Step 7 : A line chart was created to illustrate the peak months when the orders were maximum to identify the peak time of the year.
-
-![line_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/1ba2fdba-1f0c-4744-be6e-6543df8cc927)
 
 Step 8 : A pie chart was created to show the distribution of sales across different pizza category, which provides insight into the popularity of various pizza categories and their contributions to overall sales.
 
-![pie_chart1](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/3fdcdbc4-4099-407a-9e4a-2ea12d55eb60)
-
 Step 9 : A pie chart was generated to represent the percentage of sales attributed to different pizza sizes. This helps us understand customer preferences for pizza sizes and their impact on sales.
-
-![pie_chart2](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/e4054a90-8889-4162-a719-9ed33151944c)
 
 Step 10 : A funnel chart was created to demonstrate the number of pizzas sold for each pizza category to compare the sales performance of different pizza categories.
 
-![funnel_chart](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/ccc9d337-e60a-49c5-883d-6e664373562e)
-
 Step 11 : A bar chart highlighting the top five best selling pizza based on the revenue, total quantity and total order was created to identify most popular pizza options.
-
-![best_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/a8e46946-b802-48d3-9db0-7b15ea0700e0)
 
 Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on the revenue, total quantity and total orders was created to identify underperforming or less popular pizza options.
 
-![worst_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/5db153f1-a20d-493d-916f-e2fb3ceedec6)
-
-### Results/Findings
-
-The analysis results are summarized as follows:
-1. Orders were highest on weekends, Fridays/Saturdays and maximum orders were from the month of January and July.
-
-![insight1](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/a42204dd-57a8-4cc1-899a-23388fd5b110)
-
-2. Classic category contributes to maximum sales and total orders whereas large size pizza contributes to maximum sales.
-
-![insight2](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/78b4fbc2-d947-4ea4-9bd3-b5fea38d5255)
-
-3. The Thai chicken pizza contibutes to maximum revenue whereas classic deluxe pizza contributes to maximum total quantity and total orders.
-
-![top](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/df3e6288-1b11-4add-b328-65024cfe1e78)
-
-4. The Brie Carre Pizza contributes to minimum revenue, toal quantity and total orders.
-
-![bottom](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/bb78be79-1eae-4993-bf45-67dcaaadfb64)
-
-### Recommendations
-
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales season to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
-
-### Limitations
-
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation beteen both buget and number of votes with revenue.
-
-### References
-
-1.SQL for Business by werty
-2. [Stack Overflow](https://stack.com)
-
 ![best_worst_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b267a345-22e6-4482-9a28-6499feb5e3c3)
 ![home_tab](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b38936dd-8d72-494f-bb1d-ece9e8c74306)
+
+### Insights
+
+The analysis results are summarized as follows:
+
+1. Orders were highest on weekends, Fridays/Saturdays and maximum orders were from the month of January and July.
+2. Classic category contributes to maximum sales and total orders whereas large size pizza contributes to maximum sales.
+3. The Thai chicken pizza contibutes to maximum revenue whereas classic deluxe pizza contributes to maximum total quantity and total orders.
+4. The Brie Carre Pizza contributes to minimum revenue, toal quantity and total orders.
+
+
+
