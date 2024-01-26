@@ -4,20 +4,20 @@
 
 - [Project Overview](#project-overview)
 - [Data Cleaning/Preparation](#data-cleaning/preparation)
-- [Recommendations](#recommendations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
 - [Data Visualization](#data-visualization)
 - [Insights](#insigts)
   
 ### Project Overview
 
-This data analysis project aims to provide insights into the sales performance of a pizza selling company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+This data analysis project aims to provide insights into the sales performance of a pizza selling company over the past year. By analyzing various aspects of the sales data, we seek to identify trends, present data-driven insights to gain a deeper understanding of the company's performance.
 
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
-Data loading: dataset is a csv file.
-Data inspection
+-Data loading: dataset is a csv file.
+-Data inspection
 
 ### Exploratory Data Analysis
 
@@ -104,8 +104,8 @@ Step 11 : A bar chart highlighting the top five best selling pizza based on the 
 
 Step 12 : A bar chart showcasing the bottom five worst selling pizzas based on the revenue, total quantity and total orders was created to identify underperforming or less popular pizza options.
 
-![best_worst_seller](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b267a345-22e6-4482-9a28-6499feb5e3c3)
-![home_tab](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/b38936dd-8d72-494f-bb1d-ece9e8c74306)
+![dashboard_home](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/c103b47b-a6d0-482c-83a5-de82fc4e5ac3)
+![dashboard_best_worst](https://github.com/renu9621/Sales-Analysis-Project/assets/155563588/e9b31b4a-6994-4732-ab8c-7ff3f5a1b993)
 
 ### Insights
 
