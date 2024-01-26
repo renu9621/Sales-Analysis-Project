@@ -7,7 +7,7 @@
 - [Recommendations](#recommendations)
 - [Data Analysis](#data-analysis)
 - [Data Visualization](#data-visualization)
-- [Insights](insigts)
+- [Insights](#insigts)
   
 ### Project Overview
 
